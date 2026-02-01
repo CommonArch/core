@@ -1,6 +1,6 @@
 FROM docker.io/library/archlinux:base-devel AS pacstrap
 
-ARG ARCHIVE_DATE=2025/12/27
+ARG ARCHIVE_DATE=2026/01/31
 ARG ARCHIVE_SERVER=https://archive.archlinux.org/repos
 
 RUN pacman-key --init
